@@ -1,25 +1,22 @@
 .login{
-    width:100%;
-    height: 100%;
+    margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .login-header{
-
+    margin: auto;
+    width: 50%;
 }
 .login-hyperlink{
-
+    margin: auto;
+    width: 50%;
 }
 .login-info{
-
-}
-
-
-.login-submit-btn{
- position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
     margin: auto;
+    width: 50%;
+
+    .ant-form-item-label>label {
+        
+    }
 }
