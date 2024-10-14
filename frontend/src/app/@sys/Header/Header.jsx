@@ -24,15 +24,14 @@ function Header() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <img src='/frontend/src/logos/images.png' alt="" className='app-logo'></img>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
             SET <i className='fab fa-typo3'/></Link>
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times':'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                 Home
                 </Link>
               </li>

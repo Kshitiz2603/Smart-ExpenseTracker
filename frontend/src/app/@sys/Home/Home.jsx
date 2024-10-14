@@ -21,9 +21,11 @@ function Home() {
     const col = columns;
       
   return (
-    <div>
-      <Table dataSource={data} columns={col} />;
+    <>
+    <div >
+        <Table className='ant-table-thead' dataSource={data} columns={col} />;
     </div>
+    </>
   )
 }
 
