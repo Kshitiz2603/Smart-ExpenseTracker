@@ -4,7 +4,7 @@ import { Table } from "antd"
 import axios from 'axios'
 import {columns} from './userGridColumn'
 
-function Home() {
+function Expense() {
     const [data, setData] = useState([])
 
     useEffect(() => {
@@ -29,4 +29,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Expense
